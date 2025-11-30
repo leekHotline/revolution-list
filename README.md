@@ -1,16 +1,90 @@
-# revolution_list
+# Revolution List - 智能任务管理器 📋
 
-A new Flutter project.
+## ✨ 核心特性 Core Features
 
-## Getting Started
+### 🎯 智能任务管理
+- **5级优先级系统** (P1-P5) - 聚焦重要事务
+- **Top 5 重点任务** - 每日优先完成
+- **拖拽排序** - 直观调整任务顺序
+- **截止日期** - 永不忘记重要事项
 
-This project is a starting point for a Flutter application.
+### 🎨 流畅体验
+- **创建/完成动画** - 即时反馈与成就感
+- **深色主题** - 舒适视觉体验
+- **每周提醒** - 自动清理与回顾
 
-A few resources to get you started if this is your first Flutter project:
+### 💾 可靠存储
+- **本地数据库** - 数据安全保存
+- **个性化设置** - 自定义使用偏好
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 快速开始 Quick Start
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+# 克隆项目 Clone project
+git clone https://github.com/leekHotline/revolution-list.git
+
+# 安装依赖 Install dependencies
+flutter pub get
+
+# 运行应用 Run app
+flutter run
+```
+
+## 📱 功能预览 Feature Overview
+
+| 功能 Feature | 状态 Status |
+|-------------|-------------|
+| 5分类 TabBar | ✅ |
+| 任务 CRUD | ✅ |
+| 拖拽排序 | ✅ |
+| Top 5 优先任务 | ✅ |
+| 每周提醒 | ✅ |
+| 奖励动画 | ✅ |
+| 本地存储 | ✅ |
+| 优先级系统 | ✅ |
+| 深色主题 | ✅ |
+
+## 🛠 技术栈 Tech Stack
+
+- **Flutter** - 跨平台框架
+- **sqflite** - 本地数据库
+- **shared_preferences** - 配置存储
+
+---
+
+## 🚀 后续优化建议
+
+### 1. 发布正式版 APK
+```bash
+# 体积更小、性能更好
+flutter build apk --release
+```
+
+### 2. 添加应用图标
+```yaml
+# pubspec.yaml 添加
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+```
+
+### 3. 添加更多功能
+- 📊 统计页面（完成率、趋势图）
+- 🔔 真实推送通知
+- ☁️ 云同步备份
+- 🌙 浅色/深色主题切换
+- 📤 导出/导入数据
+
+### 4. 上架应用商店
+- Google Play Store
+- 国内应用商店（华为、小米等）
+
+---
+
+
+**开始高效管理您的任务！**  
+**Start managing your tasks efficiently today!**
