@@ -1,4 +1,5 @@
-# Revolution List - 智能任务管理器 📋
+# Revolution List - 简单任务管理器 📋
+![list](https://github.com/user-attachments/assets/37ca3408-d922-4e67-94c7-f647d10d1aa4)
 
 ## ✨ 核心特性 Core Features
 
